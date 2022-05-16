@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CAS703:IceCream_shop xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:CAS703="CAS703">
+  <List>
+    <IceCream label="Vanilla ice cream"/>
+    <IceCream label="Matcha ice cream" name="Matcha"/>
+    <IceCream label="Chocolate ice cream" name="Chocolate"/>
+    <IceCream label="Strawberry ice cream" name="Strawberry"/>
+    <IceCream label="Coffee ice cream" name="Coffee"/>
+    <IceCream label="Mango ice cream" name="Mango"/>
+  </List>
+  <Customers>
+    <Orders label="Vanilla ice cream`s order quantity" number="10"/>
+    <Orders label="Coffee ice cream`s order quantity" name="Coffee" number="6"/>
+    <Orders label="Mango ice cream`s order quantity" name="Mango"/>
+    <Orders label="Strawberry ice cream`s order quantity" name="Strawberry" number="15"/>
+    <Orders label="Matcha ice cream`s order quantity" name="Matcha" number="3"/>
+    <Orders label="Chocolate ice cream`s order quantity" name="Chocolate" number="18"/>
+  </Customers>
+  <Recipes>
+    <Recipes label="Vanilla ice cream recipe">
+      <Uses number="5"/>
+    </Recipes>
+    <Recipes label="Strawberry ice cream recipe" name="Strawberry">
+      <Uses label="Use" name="Strawberry" number="2"/>
+    </Recipes>
+    <Recipes label="Chocolate ice cream recipe" name="Chocolate">
+      <Uses label="Use" name="Chocolate" number="10"/>
+    </Recipes>
+    <Recipes label="Coffee ice cream recipe" name="Coffee">
+      <Uses label="Use" name="Coffee" number="8"/>
+    </Recipes>
+    <Recipes label="Mango ice cream recipe" name="Mango">
+      <Uses label="Use" name="Mango" number="1"/>
+    </Recipes>
+    <Recipes label="Matcha ice cream recipe" name="Matcha">
+      <Uses label="Use" name="Matcha" number="7"/>
+    </Recipes>
+  </Recipes>
+  <Inventory>
+    <Inventories label="Vanilla`s inventory" number="100"/>
+    <Inventories label="Matcha`s inventory" name="Matcha" number="160"/>
+    <Inventories label="Strawberry`s inventory" name="Strawberry" number="120"/>
+    <Inventories label="Chocolate`s inventory" name="Chocolate" number="200"/>
+    <Inventories label="Coffee`s inventory" name="Coffee" number="190"/>
+    <Inventories label="Mango`s inventory" name="Mango" number="98"/>
+  </Inventory>
+  <Materials source="//@Inventory/@Inventories.0" target="//@Recipes/@Recipes.0"/>
+  <Materials source="//@Inventory/@Inventories.1" target="//@Recipes/@Recipes.5"/>
+  <Materials source="//@Inventory/@Inventories.2" target="//@Recipes/@Recipes.1"/>
+  <Materials source="//@Inventory/@Inventories.3" target="//@Recipes/@Recipes.2"/>
+  <Materials source="//@Inventory/@Inventories.4" target="//@Recipes/@Recipes.3"/>
+  <Materials source="//@Inventory/@Inventories.5" target="//@Recipes/@Recipes.4"/>
+  <Materials source="//@Recipes/@Recipes.0" target="//@Customers/@Orders.0"/>
+  <Materials source="//@Recipes/@Recipes.5" target="//@Customers/@Orders.4"/>
+  <Materials source="//@Recipes/@Recipes.1" target="//@Customers/@Orders.3"/>
+  <Materials source="//@Recipes/@Recipes.2" target="//@Customers/@Orders.5"/>
+  <Materials source="//@Recipes/@Recipes.3" target="//@Customers/@Orders.1"/>
+  <Materials source="//@Recipes/@Recipes.4" target="//@Customers/@Orders.2"/>
+  <Transitions label="Order" source="//@List" target="//@Customers"/>
+  <Transitions label="Get" source="//@Customers" target="//@Recipes"/>
+  <Transitions label="Grab" source="//@Recipes" target="//@Inventory"/>
+</CAS703:IceCream_shop>

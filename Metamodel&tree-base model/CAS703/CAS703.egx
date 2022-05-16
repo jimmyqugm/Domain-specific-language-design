@@ -1,0 +1,24 @@
+pre { "Transformation starting".println(); }
+rule inventory
+transform inventory : Inventory {
+template : "inventory.egl"
+target { return "inventory.html"; }
+}
+
+rule customer
+transform customer : Customer {
+template : "customer.egl"
+target { return "customer.html"; }
+}
+
+rule kitchen
+transform kitchen : Kitchen {
+template : "kitchen.egl"
+target { return "kitchen.html"; }
+}
+
+rule general
+transform general : IceCream_shop {
+template : "general.egl"
+target { return "general.html"; }
+}

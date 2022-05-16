@@ -1,0 +1,169 @@
+context Menu {
+	critique HasName {
+		check: self.label.isDefined()
+		message: "Menu class do not have name!!"
+	}
+	constraint OutGoing {
+		check: self.outgoing.size() == 1
+		message:"Menu " + " must have exactly 1 outgoing" +" transitions"
+	}
+	constraint InComing {
+		check: self.incoming.size() == 0
+		message:"Menu " + " must have exactly 0 incoming" +" transitions"
+	}
+}
+
+context Customer {
+	critique HasName {
+		check: self.label.isDefined()
+		message: "Customer class do not have name!!"
+	}
+	constraint OutGoing {
+		check: self.outgoing.size() == 0
+		message:"Customer " + " must have exactly 0 outgoing" +" transitions"
+	}
+	constraint InComing {
+		check: self.incoming.size() == 2
+		message:"Customer " + " must have exactly 2 incoming" +" transitions"
+	}
+}
+
+context Kitchen {
+	critique HasName {
+		check: self.label.isDefined()
+		message: "Kitchen class do not have name!!"
+	}
+	constraint OutGoing {
+		check: self.outgoing.size() == 1
+		message:"Kitchen " + " must have exactly 1 outgoing" +" transitions"
+	}
+	constraint InComing {
+		check: self.incoming.size() == 1
+		message:"Kitchen " + " must have exactly 1 incoming" +" transitions"
+	}
+}
+
+context Storage {
+	critique HasName {
+		check: self.label.isDefined()
+		message: "Storage class do not have name!!"
+	}
+	constraint OutGoing {
+		check: self.outgoing.size() == 1
+		message:"Storage " + " must have exactly 1 outgoing" +" transitions"
+	}
+	constraint InComing {
+		check: self.incoming.size() == 0
+		message:"Storage " + " must have exactly 0 incoming" +" transitions"
+	}
+}
+
+context Order {
+	constraint HasName {
+		check: self.label.isDefined()
+		message: "Order class do not have name!!£¬ please create for it!!"
+		}
+	constraint Amount_bot {
+		check: self.number >= 0
+		message: "Order: "+ self.label + " amount is lower than 0!" 
+		+ "please check the ordering system!"
+	}
+		
+}
+context Recipe {
+	constraint HasName {
+		check: self.label.isDefined()
+		message: "Recipe class do not have name!!£¬ please create for it!!"
+		}
+}
+context Use {
+	constraint HasName {
+		check: self.label.isDefined()
+		message: "Rcipe class do not have name!!£¬ please create for it!!"
+		}
+	constraint UseFix_V {
+		guard: self.name = 1
+		check: self.number == 5	
+		fix {
+			title: "Fix " + self.label
+			do {
+				self.number = 5;
+			}	
+		} 	
+	}
+	constraint UseFix_S {
+		guard: self.name = 2
+		check: self.number == 2	
+		fix {
+			title: "Fix " + self.label
+			do {
+				self.number = 2;
+			}
+		} 	
+	}
+	constraint UseFix_M {
+		guard: self.name = 3
+		check: self.number == 10	
+		fix {
+			title: "Fix " + self.label
+			do {
+				self.number = 10;
+			}
+		} 	
+	}	
+	constraint UseFix_Ma {
+		guard: self.name = 4
+		check: self.number == 1	
+		fix {
+			title: "Fix " + self.label
+			do {
+				self.number = 1;
+			}
+		} 	
+	}	
+	constraint UseFix_Co {
+		guard: self.name = 5
+		check: self.number == 3	
+		fix {
+			title: "Fix " + self.label
+			do {
+				self.number = 3;
+			}
+		} 	
+	}	
+	constraint UseFix_Ch {
+		guard: self.name = 6
+		check: self.number == 1	
+		fix {
+			title: "Fix " + self.label
+			do {
+				self.number = 1;
+			}
+		} 	
+	}
+}
+context Inventory {
+	constraint HasName {
+		check: self.label.isDefined()
+		message: "Inventory class do not have name!!£¬ please create for it!!"
+		}
+	constraint Amount_bot {
+		check: self.number >= 0
+		message: "Inventory: "+ self.label + " amount is lower than 0!" 
+		+ "please check the system!"
+	}
+	constraint Amount_up {
+		check: self.number < 1000
+		message: "Inventory: "+ self.label + " is full!! stop refill!!"
+	}
+	critique Amount_bot_warn {
+	    guard: self.number >= 0
+		check: self.number > 50
+		message: "Inventory: "+ self.label + " insufficient, please refill in time"
+	}
+	critique Amount_bot_warn {
+	    guard: self.number < 1000
+		check: self.number < 950
+		message: "Inventory: "+ self.label + " almost full, be careful!!"
+	}
+}

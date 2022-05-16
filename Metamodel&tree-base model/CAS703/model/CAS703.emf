@@ -1,0 +1,91 @@
+@namespace(uri="CAS703", prefix="CAS703")
+@gmf
+package CAS703;
+
+enum Ingredients {
+ 	Vanilla; Matcha; Chocolate; Strawberry; Coffee; Mango;
+}
+
+/**********************************************************************/
+@gmf.diagram
+class IceCream_shop {
+	val Menu List;
+	val Customer Customers;
+	val Kitchen Recipes;
+	val Storage Inventory;
+	val Material[*] Materials;
+	val Transition[*] Transitions;
+}
+/**********************************************************************/
+@gmf.node( label="label")
+class Ingredient {
+	attr String label; 
+	attr Ingredients name;
+}
+/**********************************************************************/
+class Menu extends Node {
+    @gmf.compartment
+	val Flavor[6] IceCream;
+}
+
+class Flavor extends Ingredient {
+	
+}
+/**********************************************************************/
+class Customer extends Node {
+    @gmf.compartment
+	val Order[6] Orders;
+	op int serve();
+}
+
+class Order extends Flavor {
+	attr int number;
+}
+/**********************************************************************/
+class Kitchen extends Node {
+	@gmf.compartment
+	val Recipe[6] Recipes; 	
+	op int make();
+}
+
+class Recipe extends Flavor {
+	@gmf.compartment
+	val Use Uses;
+}
+
+class Use extends Ingredient {
+	attr int number;
+}
+/**********************************************************************/
+class Storage extends Node {
+  	@gmf.compartment
+	val Inventory[6] Inventories;
+	op int Cost();
+	op boolean Alert();
+	op int add();
+}
+
+class Inventory extends Ingredient {
+	attr int number;
+}
+/**********************************************************************/
+@gmf.link(source="source", target="target", label="label", target.decoration="arrow")
+class Material {
+	attr String label;
+    ref Ingredient source;
+    ref Ingredient target;
+}
+
+@gmf.link(source="source", target="target", label="label")
+class Transition {
+	attr String label;
+	ref Node#outgoing source;
+	ref Node#incoming target;
+}
+/**********************************************************************/
+@gmf.node( label="label")
+abstract class Node {
+	attr String label;
+	ref Transition[*]#source outgoing;
+	ref Transition[*]#target incoming;
+}

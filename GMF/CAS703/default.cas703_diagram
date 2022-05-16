@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:CAS703="CAS703" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmi:id="_91insMEREey0WIK1-CShag" type="CAS703" name="default.cas703_diagram" measurementUnit="Pixel">
+  <children xmi:type="notation:Shape" xmi:id="_RI5HsMESEey0YMgYpiNOvA" type="2001" fontName="Microsoft YaHei UI">
+    <children xmi:type="notation:DecorationNode" xmi:id="_RI684MESEey0YMgYpiNOvA" type="5001"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_RI7j8MESEey0YMgYpiNOvA" type="7001">
+      <children xmi:type="notation:Shape" xmi:id="_TV0SQMESEey0YMgYpiNOvA" type="3003" fontName="Microsoft YaHei UI">
+        <children xmi:type="notation:DecorationNode" xmi:id="_TV05UMESEey0YMgYpiNOvA" type="5007"/>
+        <element xmi:type="CAS703:Flavor" href="default.cas703#//@List/@IceCream.0"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_TV0SQcESEey0YMgYpiNOvA" y="3" width="146" height="24"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_XucfYMESEey0YMgYpiNOvA" type="3003" fontName="Microsoft YaHei UI">
+        <children xmi:type="notation:DecorationNode" xmi:id="_XudGcMESEey0YMgYpiNOvA" type="5007"/>
+        <element xmi:type="CAS703:Flavor" href="default.cas703#//@List/@IceCream.1"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XucfYcESEey0YMgYpiNOvA" y="33" width="141" height="8"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_drrS0MESEey0YMgYpiNOvA" type="3003" fontName="Microsoft YaHei UI">
+        <children xmi:type="notation:DecorationNode" xmi:id="_drrS0sESEey0YMgYpiNOvA" type="5007"/>
+        <element xmi:type="CAS703:Flavor" href="default.cas703#//@List/@IceCream.2"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_drrS0cESEey0YMgYpiNOvA" y="93" width="163" height="16"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_id2BUMESEey0YMgYpiNOvA" type="3003" fontName="Microsoft YaHei UI">
+        <children xmi:type="notation:DecorationNode" xmi:id="_id2oYMESEey0YMgYpiNOvA" type="5007"/>
+        <element xmi:type="CAS703:Flavor" href="default.cas703#//@List/@IceCream.3"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_id2BUcESEey0YMgYpiNOvA" y="63" width="161" height="16"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_lHEGUMESEey0YMgYpiNOvA" type="3003" fontName="Microsoft YaHei UI">
+        <children xmi:type="notation:DecorationNode" xmi:id="_lHEGUsESEey0YMgYpiNOvA" type="5007"/>
+        <element xmi:type="CAS703:Flavor" href="default.cas703#//@List/@IceCream.4"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_lHEGUcESEey0YMgYpiNOvA" y="123" width="150" height="8"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_ns11wMESEey0YMgYpiNOvA" type="3003" fontName="Microsoft YaHei UI">
+        <children xmi:type="notation:DecorationNode" xmi:id="_ns11wsESEey0YMgYpiNOvA" type="5007"/>
+        <element xmi:type="CAS703:Flavor" href="default.cas703#//@List/@IceCream.5"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ns11wcESEey0YMgYpiNOvA" y="153" width="152" height="21"/>
+      </children>
+    </children>
+    <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_RI5HscESEey0YMgYpiNOvA"/>
+    <element xmi:type="CAS703:Menu" href="default.cas703#//@List"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_RI5HssESEey0YMgYpiNOvA" x="5" y="20" width="221" height="221"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_rwvTkMETEey3K5_sMbsnFg" type="2002" fontName="Microsoft YaHei UI">
+    <children xmi:type="notation:DecorationNode" xmi:id="_rwxIwMETEey3K5_sMbsnFg" type="5002"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_rwy98METEey3K5_sMbsnFg" type="7002">
+      <children xmi:type="notation:Shape" xmi:id="_sbVvwMETEey3K5_sMbsnFg" type="3004" fontName="Microsoft YaHei UI">
+        <children xmi:type="notation:DecorationNode" xmi:id="_sbWW0METEey3K5_sMbsnFg" type="5008"/>
+        <element xmi:type="CAS703:Order" href="default.cas703#//@Customers/@Orders.0"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sbVvwcETEey3K5_sMbsnFg" x="10" y="3" height="18"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_s7TpQMETEey3K5_sMbsnFg" type="3004" fontName="Microsoft YaHei UI">
+        <children xmi:type="notation:DecorationNode" xmi:id="_s7UQUMETEey3K5_sMbsnFg" type="5008"/>
+        <element xmi:type="CAS703:Order" href="default.cas703#//@Customers/@Orders.1"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_s7TpQcETEey3K5_sMbsnFg" x="10" y="123" width="220" height="8"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_tM_2MMETEey3K5_sMbsnFg" type="3004" fontName="Microsoft YaHei UI">
+        <children xmi:type="notation:DecorationNode" xmi:id="_tNAdQMETEey3K5_sMbsnFg" type="5008"/>
+        <element xmi:type="CAS703:Order" href="default.cas703#//@Customers/@Orders.2"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_tM_2McETEey3K5_sMbsnFg" x="10" y="153" width="231" height="8"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_tfc4IMETEey3K5_sMbsnFg" type="3004" fontName="Microsoft YaHei UI">
+        <children xmi:type="notation:DecorationNode" xmi:id="_tfetUMETEey3K5_sMbsnFg" type="5008"/>
+        <element xmi:type="CAS703:Order" href="default.cas703#//@Customers/@Orders.3"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_tfc4IcETEey3K5_sMbsnFg" x="10" y="63" width="257" height="26"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_tzOvwMETEey3K5_sMbsnFg" type="3004" fontName="Microsoft YaHei UI">
+        <children xmi:type="notation:DecorationNode" xmi:id="_tzP94METEey3K5_sMbsnFg" type="5008"/>
+        <element xmi:type="CAS703:Order" href="default.cas703#//@Customers/@Orders.4"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_tzOvwcETEey3K5_sMbsnFg" x="10" y="33" width="221" height="8"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_uCyOsMETEey3K5_sMbsnFg" type="3004" fontName="Microsoft YaHei UI">
+        <children xmi:type="notation:DecorationNode" xmi:id="_uC0D4METEey3K5_sMbsnFg" type="5008"/>
+        <element xmi:type="CAS703:Order" href="default.cas703#//@Customers/@Orders.5"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uCyOscETEey3K5_sMbsnFg" x="10" y="93" width="251" height="11"/>
+      </children>
+    </children>
+    <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_rwvTkcETEey3K5_sMbsnFg"/>
+    <element xmi:type="CAS703:Customer" href="default.cas703#//@Customers"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rwvTksETEey3K5_sMbsnFg" x="290" y="20" width="301" height="221"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_UsEMIMEVEeyqyNiWv5IZcg" type="2003" fontName="Microsoft YaHei UI">
+    <children xmi:type="notation:DecorationNode" xmi:id="_UsEMI8EVEeyqyNiWv5IZcg" type="5003"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_UsEMJMEVEeyqyNiWv5IZcg" type="7004">
+      <children xmi:type="notation:Shape" xmi:id="_W9A7EMEVEeyqyNiWv5IZcg" type="3006" fontName="Microsoft YaHei UI">
+        <children xmi:type="notation:DecorationNode" xmi:id="_W9A7E8EVEeyqyNiWv5IZcg" type="5010"/>
+        <children xmi:type="notation:BasicCompartment" xmi:id="_W9A7FMEVEeyqyNiWv5IZcg" type="7005">
+          <children xmi:type="notation:Shape" xmi:id="_01-5cMEWEeyqyNiWv5IZcg" type="3005" fontName="Microsoft YaHei UI">
+            <children xmi:type="notation:DecorationNode" xmi:id="_01-5csEWEeyqyNiWv5IZcg" type="5009"/>
+            <element xmi:type="CAS703:Use" href="default.cas703#//@Recipes/@Recipes.0/@Uses"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_01-5ccEWEeyqyNiWv5IZcg" x="5" y="1" width="60" height="18"/>
+          </children>
+        </children>
+        <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_W9A7EcEVEeyqyNiWv5IZcg"/>
+        <element xmi:type="CAS703:Recipe" href="default.cas703#//@Recipes/@Recipes.0"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_W9A7EsEVEeyqyNiWv5IZcg" x="-5" y="-2" width="216" height="69"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_nnCL4MEWEeyqyNiWv5IZcg" type="3006" fontName="Microsoft YaHei UI">
+        <children xmi:type="notation:DecorationNode" xmi:id="_nnCy8MEWEeyqyNiWv5IZcg" type="5010"/>
+        <children xmi:type="notation:BasicCompartment" xmi:id="_nnCy8cEWEeyqyNiWv5IZcg" type="7005">
+          <children xmi:type="notation:Shape" xmi:id="_NLwxgMEXEeyqyNiWv5IZcg" type="3005" fontName="Microsoft YaHei UI">
+            <children xmi:type="notation:DecorationNode" xmi:id="_NLwxgsEXEeyqyNiWv5IZcg" type="5009"/>
+            <element xmi:type="CAS703:Use" href="default.cas703#//@Recipes/@Recipes.1/@Uses"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_NLwxgcEXEeyqyNiWv5IZcg" x="15" y="3" width="56" height="27"/>
+          </children>
+        </children>
+        <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_nnCL4cEWEeyqyNiWv5IZcg"/>
+        <element xmi:type="CAS703:Recipe" href="default.cas703#//@Recipes/@Recipes.1"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_nnCL4sEWEeyqyNiWv5IZcg" x="-5" y="146" width="216" height="76"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_qxIwYMEWEeyqyNiWv5IZcg" type="3006" fontName="Microsoft YaHei UI">
+        <children xmi:type="notation:DecorationNode" xmi:id="_qxJXcMEWEeyqyNiWv5IZcg" type="5010"/>
+        <children xmi:type="notation:BasicCompartment" xmi:id="_qxJXccEWEeyqyNiWv5IZcg" type="7005">
+          <children xmi:type="notation:Shape" xmi:id="_lcpigMEXEeyqyNiWv5IZcg" type="3005" fontName="Microsoft YaHei UI">
+            <children xmi:type="notation:DecorationNode" xmi:id="_lcpigsEXEeyqyNiWv5IZcg" type="5009"/>
+            <element xmi:type="CAS703:Use" href="default.cas703#//@Recipes/@Recipes.2/@Uses"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_lcpigcEXEeyqyNiWv5IZcg" x="20" y="3" width="54" height="28"/>
+          </children>
+        </children>
+        <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_qxIwYcEWEeyqyNiWv5IZcg"/>
+        <element xmi:type="CAS703:Recipe" href="default.cas703#//@Recipes/@Recipes.2"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qxIwYsEWEeyqyNiWv5IZcg" x="-5" y="226" width="216" height="76"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_u-Yz8MEWEeyqyNiWv5IZcg" type="3006" fontName="Microsoft YaHei UI">
+        <children xmi:type="notation:DecorationNode" xmi:id="_u-ZbAMEWEeyqyNiWv5IZcg" type="5010"/>
+        <children xmi:type="notation:BasicCompartment" xmi:id="_u-ZbAcEWEeyqyNiWv5IZcg" type="7005">
+          <children xmi:type="notation:Shape" xmi:id="_rKE_YMEXEeyqyNiWv5IZcg" type="3005" fontName="Microsoft YaHei UI">
+            <children xmi:type="notation:DecorationNode" xmi:id="_rKE_YsEXEeyqyNiWv5IZcg" type="5009"/>
+            <element xmi:type="CAS703:Use" href="default.cas703#//@Recipes/@Recipes.3/@Uses"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rKE_YcEXEeyqyNiWv5IZcg" x="25" y="3" width="57" height="22"/>
+          </children>
+        </children>
+        <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_u-Yz8cEWEeyqyNiWv5IZcg"/>
+        <element xmi:type="CAS703:Recipe" href="default.cas703#//@Recipes/@Recipes.3"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_u-Yz8sEWEeyqyNiWv5IZcg" x="-5" y="306" width="216" height="71"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_xtoBYMEWEeyqyNiWv5IZcg" type="3006" fontName="Microsoft YaHei UI">
+        <children xmi:type="notation:DecorationNode" xmi:id="_xtoocMEWEeyqyNiWv5IZcg" type="5010"/>
+        <children xmi:type="notation:BasicCompartment" xmi:id="_xtooccEWEeyqyNiWv5IZcg" type="7005">
+          <children xmi:type="notation:Shape" xmi:id="_yGpv8MEXEeyqyNiWv5IZcg" type="3005" fontName="Microsoft YaHei UI">
+            <children xmi:type="notation:DecorationNode" xmi:id="_yGqXAMEXEeyqyNiWv5IZcg" type="5009"/>
+            <element xmi:type="CAS703:Use" href="default.cas703#//@Recipes/@Recipes.4/@Uses"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_yGpv8cEXEeyqyNiWv5IZcg" x="30" y="3" width="61" height="26"/>
+          </children>
+        </children>
+        <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_xtoBYcEWEeyqyNiWv5IZcg"/>
+        <element xmi:type="CAS703:Recipe" href="default.cas703#//@Recipes/@Recipes.4"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_xtoBYsEWEeyqyNiWv5IZcg" x="-5" y="386" width="216" height="71"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_U20YsMEXEeyqyNiWv5IZcg" type="3006" fontName="Microsoft YaHei UI">
+        <children xmi:type="notation:DecorationNode" xmi:id="_U20_wMEXEeyqyNiWv5IZcg" type="5010"/>
+        <children xmi:type="notation:BasicCompartment" xmi:id="_U20_wcEXEeyqyNiWv5IZcg" type="7005">
+          <children xmi:type="notation:Shape" xmi:id="_YFQDkMEXEeyqyNiWv5IZcg" type="3005" fontName="Microsoft YaHei UI">
+            <children xmi:type="notation:DecorationNode" xmi:id="_YFQDksEXEeyqyNiWv5IZcg" type="5009"/>
+            <element xmi:type="CAS703:Use" href="default.cas703#//@Recipes/@Recipes.5/@Uses"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_YFQDkcEXEeyqyNiWv5IZcg" x="10" y="3" width="56" height="22"/>
+          </children>
+        </children>
+        <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_U20YscEXEeyqyNiWv5IZcg"/>
+        <element xmi:type="CAS703:Recipe" href="default.cas703#//@Recipes/@Recipes.5"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_U20YssEXEeyqyNiWv5IZcg" x="-5" y="71" width="216" height="71"/>
+      </children>
+    </children>
+    <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_UsEMIcEVEeyqyNiWv5IZcg"/>
+    <element xmi:type="CAS703:Kitchen" href="default.cas703#//@Recipes"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_UsEMIsEVEeyqyNiWv5IZcg" x="640" y="20" width="271" height="526"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_i5Z0kMEVEeyqyNiWv5IZcg" type="2004" fontName="Microsoft YaHei UI">
+    <children xmi:type="notation:DecorationNode" xmi:id="_i5Z0k8EVEeyqyNiWv5IZcg" type="5004"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_i5Z0lMEVEeyqyNiWv5IZcg" type="7006">
+      <children xmi:type="notation:Shape" xmi:id="_-BACEMEXEeyqyNiWv5IZcg" type="3007" fontName="Microsoft YaHei UI">
+        <children xmi:type="notation:DecorationNode" xmi:id="_-BACEsEXEeyqyNiWv5IZcg" type="5011"/>
+        <element xmi:type="CAS703:Inventory" href="default.cas703#//@Inventory/@Inventories.0"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-BACEcEXEeyqyNiWv5IZcg" x="5" y="3" width="141" height="26"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_CEEO4MEYEeyqyNiWv5IZcg" type="3007" fontName="Microsoft YaHei UI">
+        <children xmi:type="notation:DecorationNode" xmi:id="_CEE18MEYEeyqyNiWv5IZcg" type="5011"/>
+        <element xmi:type="CAS703:Inventory" href="default.cas703#//@Inventory/@Inventories.1"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_CEEO4cEYEeyqyNiWv5IZcg" x="8" y="33" width="146" height="26"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_D3fUUMEYEeyqyNiWv5IZcg" type="3007" fontName="Microsoft YaHei UI">
+        <children xmi:type="notation:DecorationNode" xmi:id="_D3fUUsEYEeyqyNiWv5IZcg" type="5011"/>
+        <element xmi:type="CAS703:Inventory" href="default.cas703#//@Inventory/@Inventories.2"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_D3fUUcEYEeyqyNiWv5IZcg" x="8" y="63" width="161" height="26"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_GPREAMEYEeyqyNiWv5IZcg" type="3007" fontName="Microsoft YaHei UI">
+        <children xmi:type="notation:DecorationNode" xmi:id="_GPREAsEYEeyqyNiWv5IZcg" type="5011"/>
+        <element xmi:type="CAS703:Inventory" href="default.cas703#//@Inventory/@Inventories.3"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_GPREAcEYEeyqyNiWv5IZcg" x="10" y="93" width="156" height="26"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_JC9ToMEYEeyqyNiWv5IZcg" type="3007" fontName="Microsoft YaHei UI">
+        <children xmi:type="notation:DecorationNode" xmi:id="_JC9TosEYEeyqyNiWv5IZcg" type="5011"/>
+        <element xmi:type="CAS703:Inventory" href="default.cas703#//@Inventory/@Inventories.4"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_JC9TocEYEeyqyNiWv5IZcg" x="8" y="123" width="137" height="26"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_KcboAMEYEeyqyNiWv5IZcg" type="3007" fontName="Microsoft YaHei UI">
+        <children xmi:type="notation:DecorationNode" xmi:id="_KcboAsEYEeyqyNiWv5IZcg" type="5011"/>
+        <element xmi:type="CAS703:Inventory" href="default.cas703#//@Inventory/@Inventories.5"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KcboAcEYEeyqyNiWv5IZcg" x="10" y="153" width="136" height="21"/>
+      </children>
+    </children>
+    <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_i5Z0kcEVEeyqyNiWv5IZcg"/>
+    <element xmi:type="CAS703:Storage" href="default.cas703#//@Inventory"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_i5Z0ksEVEeyqyNiWv5IZcg" x="960" y="20" width="221" height="241"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_91inscEREey0WIK1-CShag"/>
+  <element xmi:type="CAS703:IceCream_shop" href="default.cas703#/"/>
+  <edges xmi:type="notation:Connector" xmi:id="_D2FewMEbEey_wYa-_kUFnw" type="4002" source="_RI5HsMESEey0YMgYpiNOvA" target="_rwvTkMETEey3K5_sMbsnFg">
+    <children xmi:type="notation:DecorationNode" xmi:id="_D2IiEMEbEey_wYa-_kUFnw" type="6002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_D2KXQMEbEey_wYa-_kUFnw" y="40"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_D2FewcEbEey_wYa-_kUFnw" fontName="Microsoft YaHei UI"/>
+    <element xmi:type="CAS703:Transition" href="default.cas703#//@Transitions.0"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_D2FewsEbEey_wYa-_kUFnw" points="[37, -1, -75, 0]$[101, -3, -11, -2]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_D2d5QMEbEey_wYa-_kUFnw" id="(0.832579185520362,0.43891402714932126)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_D2egUMEbEey_wYa-_kUFnw" id="(0.036544850498338874,0.4343891402714932)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_7OqggMEbEey_wYa-_kUFnw" type="4001" source="_-BACEMEXEeyqyNiWv5IZcg" target="_W9A7EMEVEeyqyNiWv5IZcg">
+    <children xmi:type="notation:DecorationNode" xmi:id="_7Os8wMEbEey_wYa-_kUFnw" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_7Oux8MEbEey_wYa-_kUFnw" y="40"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_7OqggcEbEey_wYa-_kUFnw" fontName="Microsoft YaHei UI"/>
+    <element xmi:type="CAS703:Material" href="default.cas703#//@Materials.0"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_7OqggsEbEey_wYa-_kUFnw" points="[-53, -1, 98, 1]$[-150, -12, 1, -10]"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_7O-CgMEbEey_wYa-_kUFnw" id="(0.9027777777777778,0.2028985507246377)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_9n5owMEbEey_wYa-_kUFnw" type="4001" source="_CEEO4MEYEeyqyNiWv5IZcg" target="_U20YsMEXEeyqyNiWv5IZcg">
+    <children xmi:type="notation:DecorationNode" xmi:id="_9n8sEMEbEey_wYa-_kUFnw" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_9n96MMEbEey_wYa-_kUFnw" y="40"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_9n5owcEbEey_wYa-_kUFnw" fontName="Microsoft YaHei UI"/>
+    <element xmi:type="CAS703:Material" href="default.cas703#//@Materials.1"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_9n5owsEbEey_wYa-_kUFnw" points="[-55, 9, 99, -17]$[-139, 21, 15, -5]"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_9oAWcMEbEey_wYa-_kUFnw" id="(0.9074074074074074,0.09859154929577464)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_-oSHsMEbEey_wYa-_kUFnw" type="4001" source="_D3fUUMEYEeyqyNiWv5IZcg" target="_nnCL4MEWEeyqyNiWv5IZcg">
+    <children xmi:type="notation:DecorationNode" xmi:id="_-oT84MEbEey_wYa-_kUFnw" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_-oUj8MEbEey_wYa-_kUFnw" y="40"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_-oSHscEbEey_wYa-_kUFnw" fontName="Microsoft YaHei UI"/>
+    <element xmi:type="CAS703:Material" href="default.cas703#//@Materials.2"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_-oSHssEbEey_wYa-_kUFnw" points="[-8, 5, 96, -57]$[-103, 53, 1, -9]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_-oWZIMEbEey_wYa-_kUFnw" id="(0.062111801242236024,0.5769230769230769)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_-oYOUMEbEey_wYa-_kUFnw" id="(0.9259259259259259,0.17105263157894737)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_BS4swMEcEey_wYa-_kUFnw" type="4001" source="_GPREAMEYEeyqyNiWv5IZcg" target="_qxIwYMEWEeyqyNiWv5IZcg">
+    <children xmi:type="notation:DecorationNode" xmi:id="_BS7JAMEcEey_wYa-_kUFnw" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_BS8XIMEcEey_wYa-_kUFnw" y="40"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_BS4swcEcEey_wYa-_kUFnw" fontName="Microsoft YaHei UI"/>
+    <element xmi:type="CAS703:Material" href="default.cas703#//@Materials.3"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_BS4swsEcEey_wYa-_kUFnw" points="[-8, 8, 100, -92]$[-107, 90, 1, -10]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_BTBPoMEcEey_wYa-_kUFnw" id="(0.08333333333333333,0.6153846153846154)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_BTCdwMEcEey_wYa-_kUFnw" id="(0.9212962962962963,0.18421052631578946)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_B9JxwMEcEey_wYa-_kUFnw" type="4001" source="_JC9ToMEYEeyqyNiWv5IZcg" target="_u-Yz8MEWEeyqyNiWv5IZcg">
+    <children xmi:type="notation:DecorationNode" xmi:id="_B9M1EMEcEey_wYa-_kUFnw" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_B9ODMMEcEey_wYa-_kUFnw" y="40"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_B9JxwcEcEey_wYa-_kUFnw" fontName="Microsoft YaHei UI"/>
+    <element xmi:type="CAS703:Material" href="default.cas703#//@Materials.4"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_B9JxwsEcEey_wYa-_kUFnw" points="[-3, 5, 94, -136]$[-87, 139, 10, -2]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_B9PRUMEcEey_wYa-_kUFnw" id="(0.029197080291970802,0.5384615384615384)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_B9PRUcEcEey_wYa-_kUFnw" id="(0.9398148148148148,0.22535211267605634)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_CffCwMEcEey_wYa-_kUFnw" type="4001" source="_KcboAMEYEeyqyNiWv5IZcg" target="_xtoBYMEWEeyqyNiWv5IZcg">
+    <children xmi:type="notation:DecorationNode" xmi:id="_CfhfAMEcEey_wYa-_kUFnw" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_CfitIMEcEey_wYa-_kUFnw" y="40"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_CffCwcEcEey_wYa-_kUFnw" fontName="Microsoft YaHei UI"/>
+    <element xmi:type="CAS703:Material" href="default.cas703#//@Materials.5"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_CffCwsEcEey_wYa-_kUFnw" points="[-3, 7, 96, -167]$[-98, 165, 1, -9]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_CfmXgMEcEey_wYa-_kUFnw" id="(0.03676470588235294,0.6153846153846154)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Cfm-kMEcEey_wYa-_kUFnw" id="(0.9398148148148148,0.18309859154929578)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_DNv28MEcEey_wYa-_kUFnw" type="4001" source="_W9A7EMEVEeyqyNiWv5IZcg" target="_sbVvwMETEey3K5_sMbsnFg">
+    <children xmi:type="notation:DecorationNode" xmi:id="_DNxsIMEcEey_wYa-_kUFnw" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_DNyTMMEcEey_wYa-_kUFnw" y="40"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_DNv28cEcEey_wYa-_kUFnw" fontName="Microsoft YaHei UI"/>
+    <element xmi:type="CAS703:Material" href="default.cas703#//@Materials.6"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_DNv28sEcEey_wYa-_kUFnw" points="[-8, 0, 106, 0]$[-99, -1, 15, -1]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_DN0IYMEcEey_wYa-_kUFnw" id="(0.046296296296296294,0.17391304347826086)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_DN0IYcEcEey_wYa-_kUFnw" id="(0.908675799086758,0.34615384615384615)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_D3R8IMEcEey_wYa-_kUFnw" type="4001" source="_U20YsMEXEeyqyNiWv5IZcg" target="_tzOvwMETEey3K5_sMbsnFg">
+    <children xmi:type="notation:DecorationNode" xmi:id="_D3SjMMEcEey_wYa-_kUFnw" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_D3TKQMEcEey_wYa-_kUFnw" y="40"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_D3R8IcEcEey_wYa-_kUFnw" fontName="Microsoft YaHei UI"/>
+    <element xmi:type="CAS703:Material" href="default.cas703#//@Materials.7"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_D3R8IsEcEey_wYa-_kUFnw" points="[-6, -2, 99, 34]$[-95, -37, 10, -1]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_D3UYYMEcEey_wYa-_kUFnw" id="(0.037037037037037035,0.22535211267605634)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_D3U_cMEcEey_wYa-_kUFnw" id="(0.9411764705882353,0.2692307692307692)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_EebbsMEcEey_wYa-_kUFnw" type="4001" source="_nnCL4MEWEeyqyNiWv5IZcg" target="_tfc4IMETEey3K5_sMbsnFg">
+    <children xmi:type="notation:DecorationNode" xmi:id="_Eecp0MEcEey_wYa-_kUFnw" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_EedQ4MEcEey_wYa-_kUFnw" y="40"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_EebbscEcEey_wYa-_kUFnw" fontName="Microsoft YaHei UI"/>
+    <element xmi:type="CAS703:Material" href="default.cas703#//@Materials.8"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_EebbssEcEey_wYa-_kUFnw" points="[-2, -2, 78, 70]$[-79, -76, 1, -4]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_EefGEMEcEey_wYa-_kUFnw" id="(0.013888888888888888,0.2236842105263158)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_EefGEcEcEey_wYa-_kUFnw" id="(0.9182879377431906,0.23076923076923078)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_Fh0LUMEcEey_wYa-_kUFnw" type="4001" source="_qxIwYMEWEeyqyNiWv5IZcg" target="_uCyOsMETEey3K5_sMbsnFg">
+    <children xmi:type="notation:DecorationNode" xmi:id="_Fh2nkMEcEey_wYa-_kUFnw" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_Fh3OoMEcEey_wYa-_kUFnw" y="40"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_Fh0LUcEcEey_wYa-_kUFnw" fontName="Microsoft YaHei UI"/>
+    <element xmi:type="CAS703:Material" href="default.cas703#//@Materials.9"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Fh0LUsEcEey_wYa-_kUFnw" points="[-10, -12, 77, 93]$[-87, -114, 0, -9]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Fh65AMEcEey_wYa-_kUFnw" id="(0.06944444444444445,0.21052631578947367)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Fh7gEMEcEey_wYa-_kUFnw" id="(0.9482071713147411,0.46153846153846156)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_GcPMMMEcEey_wYa-_kUFnw" type="4001" source="_u-Yz8MEWEeyqyNiWv5IZcg" target="_s7TpQMETEey3K5_sMbsnFg">
+    <children xmi:type="notation:DecorationNode" xmi:id="_GcRocMEcEey_wYa-_kUFnw" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_GcSPgMEcEey_wYa-_kUFnw" y="40"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_GcPzQMEcEey_wYa-_kUFnw" fontName="Microsoft YaHei UI"/>
+    <element xmi:type="CAS703:Material" href="default.cas703#//@Materials.10"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_GcPzQcEcEey_wYa-_kUFnw" points="[-6, -7, 104, 138]$[-109, -146, 1, -1]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_GcVS0MEcEey_wYa-_kUFnw" id="(0.08333333333333333,0.14084507042253522)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_GcWg8MEcEey_wYa-_kUFnw" id="(0.9636363636363636,0.07692307692307693)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_HLsTMMEcEey_wYa-_kUFnw" type="4001" source="_xtoBYMEWEeyqyNiWv5IZcg" target="_tM_2MMETEey3K5_sMbsnFg">
+    <children xmi:type="notation:DecorationNode" xmi:id="_HLthUMEcEey_wYa-_kUFnw" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_HLuIYMEcEey_wYa-_kUFnw" y="40"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_HLsTMcEcEey_wYa-_kUFnw" fontName="Microsoft YaHei UI"/>
+    <element xmi:type="CAS703:Material" href="default.cas703#//@Materials.11"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_HLsTMsEcEey_wYa-_kUFnw" points="[-5, -7, 100, 168]$[-105, -184, 0, -9]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_HLvWgMEcEey_wYa-_kUFnw" id="(0.06481481481481481,0.14084507042253522)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_HLvWgcEcEey_wYa-_kUFnw" id="(0.9264069264069265,0.46153846153846156)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_G8EvkMEsEey_wYa-_kUFnw" type="4002" source="_rwvTkMETEey3K5_sMbsnFg" target="_UsEMIMEVEeyqyNiWv5IZcg">
+    <children xmi:type="notation:DecorationNode" xmi:id="_G8HL0MEsEey_wYa-_kUFnw" type="6002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_G8IZ8MEsEey_wYa-_kUFnw" y="40"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_G8EvkcEsEey_wYa-_kUFnw" fontName="Microsoft YaHei UI"/>
+    <element xmi:type="CAS703:Transition" href="default.cas703#//@Transitions.1"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_G8EvksEsEey_wYa-_kUFnw" points="[8, 3, -204, -241]$[8, 232, -204, -12]$[208, 232, -4, -12]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_G8JBAMEsEey_wYa-_kUFnw" id="(0.4717607973421927,0.9864253393665159)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_G8MrYMEsEey_wYa-_kUFnw" id="(0.014760147601476014,0.8783269961977186)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_Q5nWwMEsEey_wYa-_kUFnw" type="4002" source="_i5Z0kMEVEeyqyNiWv5IZcg" target="_UsEMIMEVEeyqyNiWv5IZcg">
+    <children xmi:type="notation:DecorationNode" xmi:id="_Q5ok4MEsEey_wYa-_kUFnw" type="6002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_Q5pL8MEsEey_wYa-_kUFnw" y="40"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_Q5nWwcEsEey_wYa-_kUFnw" fontName="Microsoft YaHei UI"/>
+    <element xmi:type="CAS703:Transition" href="default.cas703#//@Transitions.2"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Q5nWwsEsEey_wYa-_kUFnw" points="[0, 7, 214, -213]$[0, 220, 214, 0]$[-177, 220, 37, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Q5rBIMEsEey_wYa-_kUFnw" id="(0.579185520361991,0.970954356846473)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Q5rBIcEsEey_wYa-_kUFnw" id="(0.8634686346863468,0.8631178707224335)"/>
+  </edges>
+</notation:Diagram>

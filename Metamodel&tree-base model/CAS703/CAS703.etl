@@ -1,0 +1,18 @@
+rule Customer2Table
+	transform p : Customer
+	to t : StructuredContent!Table {
+	t.id = "Ice cream general information";
+	t.createRow(Sequence{"Ice cream type", "number"});
+	for (d in p.all) {
+		t.createRow(Sequence{d.label, d.Orders.number});
+	}	
+}
+operation StructuredContent!Table createRow(cells : Sequence) {
+	var row : new StructuredContent!Row;
+	for (c in cells) {
+		var cell : new StructuredContent!Cell;
+		cell.content = c + "";
+		row.cells.add(cell);
+	}
+	self.rows.add(row);
+}

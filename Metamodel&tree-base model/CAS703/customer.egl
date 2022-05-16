@@ -1,0 +1,13 @@
+<h1>Ice cream shop customer order</h1>
+<table border="1">
+<tr>
+	<td> </td>
+	<td>amount</td>
+</tr>
+[%for (i in Order.all){%]
+<tr>
+	<td>[%=i.label%]</td>
+	<td>[%=i.number%]</td>
+</tr>
+[%}%]
+</table>

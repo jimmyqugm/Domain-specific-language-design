@@ -1,0 +1,23 @@
+<h1>Ice cream shop general information</h1>
+<table border="1">
+<tr>
+	<td> </td>
+	<td>Customer waiting list</td>
+	<td>Ingredient cost</td>	
+	<td>Inventory</td>
+</tr>
+
+<tr>
+	[%for (i in Customer.all){%]
+	<td>[%=i.Orders.label%]</td>
+	<td>[%=i.Orders.number%]</td>
+	[%}%]
+	[%for (i in Kitchen.all){%]
+	<td>[%=i.Recipes.Uses.number%]</td>	
+	[%}%]
+	[%for (i in Storage.all){%]
+	<td>[%=i.Inventories.number%]</td>
+	[%}%]	
+</tr>
+
+</table>

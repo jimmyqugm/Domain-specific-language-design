@@ -1,0 +1,13 @@
+<h1>Ice cream shop kitchen recipe</h1>
+<table border="1">
+<tr>
+	<td> </td>
+	<td>cost</td>
+</tr>
+[%for (i in Use.all){%]
+<tr>
+	<td>[%=i.label%]</td>
+	<td>[%=i.number%] [%=i.name%]</td>
+</tr>
+[%}%]
+</table>

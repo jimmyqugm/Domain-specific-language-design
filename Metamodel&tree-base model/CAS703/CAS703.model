@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="ASCII"?>
+<CAS703:IceCream_shop xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:CAS703="CAS703" xmi:id="_rlSScMQ9EeyZPNmcQdzmYg">
+  <List xmi:id="_tN85YMQ9EeyZPNmcQdzmYg" label="Menu" outgoing="_Q0rr0MQ_EeyZPNmcQdzmYg">
+    <IceCream xmi:id="_xj6NAMQ9EeyZPNmcQdzmYg" label="Vanilla ice cream"/>
+    <IceCream xmi:id="_yOjsgMQ9EeyZPNmcQdzmYg" label="Strawberry ice cream" name="Strawberry"/>
+    <IceCream xmi:id="_ynwPoMQ9EeyZPNmcQdzmYg" label="Matcha  ice cream" name="Matcha"/>
+    <IceCream xmi:id="_zCttUMQ9EeyZPNmcQdzmYg" label="Mango  ice cream" name="Mango"/>
+    <IceCream xmi:id="_zXN9sMQ9EeyZPNmcQdzmYg" label="Coffee ice cream" name="Coffee"/>
+    <IceCream xmi:id="_zzPLUMQ9EeyZPNmcQdzmYg" label="Chocolate ice cream" name="Chocolate"/>
+  </List>
+  <Customers xmi:id="_DxvPYMQ-EeyZPNmcQdzmYg" label="Customer" incoming="_Q0rr0MQ_EeyZPNmcQdzmYg _VyAhcMQ_EeyZPNmcQdzmYg">
+    <Orders xmi:id="_Ek6YwMQ-EeyZPNmcQdzmYg" label="Vanilla ice cream order" number="3"/>
+    <Orders xmi:id="_E8zUUMQ-EeyZPNmcQdzmYg" label="Strawberry ice cream order" name="Strawberry" number="12"/>
+    <Orders xmi:id="_FUATYMQ-EeyZPNmcQdzmYg" label="Matcha ice cream order" name="Matcha" number="4"/>
+    <Orders xmi:id="_FpyWIMQ-EeyZPNmcQdzmYg" label="Mango ice cream order" name="Mango" number="21"/>
+    <Orders xmi:id="_F_6-MMQ-EeyZPNmcQdzmYg" label="Coffee ice cream order" name="Coffee" number="8"/>
+    <Orders xmi:id="_GWymEMQ-EeyZPNmcQdzmYg" label="Chocolate ice cream order" name="Chocolate" number="15"/>
+  </Customers>
+  <Recipes xmi:id="_X4dGAMQ-EeyZPNmcQdzmYg" label="Kitchen" outgoing="_VyAhcMQ_EeyZPNmcQdzmYg" incoming="_Zj_lUMQ_EeyZPNmcQdzmYg">
+    <Recipes xmi:id="_YindUMQ-EeyZPNmcQdzmYg" label="Vanilla recipe">
+      <Uses xmi:id="_ddc_oMQ-EeyZPNmcQdzmYg" label="Vanilla ice cream use" number="5"/>
+    </Recipes>
+    <Recipes xmi:id="_bhawwMQ-EeyZPNmcQdzmYg" label="Strawberry recipe" name="Strawberry">
+      <Uses xmi:id="_eHfbIMQ-EeyZPNmcQdzmYg" label="Strawberry ice cream use" name="Strawberry" number="2"/>
+    </Recipes>
+    <Recipes xmi:id="_a5fOEMQ-EeyZPNmcQdzmYg" label="Matcha recipe" name="Matcha">
+      <Uses xmi:id="_euES8MQ-EeyZPNmcQdzmYg" label="Matcha ice cream use" name="Matcha" number="10"/>
+    </Recipes>
+    <Recipes xmi:id="_aAoTcMQ-EeyZPNmcQdzmYg" label="Mango recipe" name="Mango">
+      <Uses xmi:id="_fP3YcMQ-EeyZPNmcQdzmYg" label="Mango ice cream use" name="Mango" number="1"/>
+    </Recipes>
+    <Recipes xmi:id="_ad9vsMQ-EeyZPNmcQdzmYg" label="Coffee recipe" name="Coffee">
+      <Uses xmi:id="_fu_kcMQ-EeyZPNmcQdzmYg" label="Coffee ice cream use" name="Coffee" number="3"/>
+    </Recipes>
+    <Recipes xmi:id="_ZmnQ8MQ-EeyZPNmcQdzmYg" label="Chocolate recipe" name="Chocolate">
+      <Uses xmi:id="_gSItwMQ-EeyZPNmcQdzmYg" label="Chocolate ice cream use" name="Chocolate" number="1"/>
+    </Recipes>
+  </Recipes>
+  <Inventory xmi:id="_8urm4MQ-EeyZPNmcQdzmYg" label="Storage" outgoing="_Zj_lUMQ_EeyZPNmcQdzmYg">
+    <Inventories xmi:id="_9PjfUMQ-EeyZPNmcQdzmYg" label="Vanilla inventory" number="560"/>
+    <Inventories xmi:id="_9sqSEMQ-EeyZPNmcQdzmYg" label="Strawberry inventory" name="Strawberry" number="250"/>
+    <Inventories xmi:id="_-GaO0MQ-EeyZPNmcQdzmYg" label="Matcha inventory" name="Matcha" number="78"/>
+    <Inventories xmi:id="_-fYvgMQ-EeyZPNmcQdzmYg" label="Mango inventory" name="Mango" number="91"/>
+    <Inventories xmi:id="_--ftYMQ-EeyZPNmcQdzmYg" label="Coffee inventory" name="Coffee" number="290"/>
+    <Inventories xmi:id="__bM3gMQ-EeyZPNmcQdzmYg" label="Chocolate inventory" name="Chocolate" number="56"/>
+  </Inventory>
+  <Materials xmi:id="_i-OxEMTBEeyZPNmcQdzmYg" label="Vanilla" source="_9PjfUMQ-EeyZPNmcQdzmYg" target="_ddc_oMQ-EeyZPNmcQdzmYg"/>
+  <Materials xmi:id="_jmNXEMTBEeyZPNmcQdzmYg" label="Vanilla" source="_ddc_oMQ-EeyZPNmcQdzmYg" target="_YindUMQ-EeyZPNmcQdzmYg"/>
+  <Materials xmi:id="_kO684MTBEeyZPNmcQdzmYg" label="Vanilla" source="_YindUMQ-EeyZPNmcQdzmYg" target="_Ek6YwMQ-EeyZPNmcQdzmYg"/>
+  <Materials xmi:id="_koodYMTBEeyZPNmcQdzmYg" label="Starwberry" source="_9sqSEMQ-EeyZPNmcQdzmYg" target="_eHfbIMQ-EeyZPNmcQdzmYg"/>
+  <Materials xmi:id="_lEQCYMTBEeyZPNmcQdzmYg" label="Starwberry" source="_eHfbIMQ-EeyZPNmcQdzmYg" target="_bhawwMQ-EeyZPNmcQdzmYg"/>
+  <Materials xmi:id="_lhW1IMTBEeyZPNmcQdzmYg" label="Starwberry" source="_bhawwMQ-EeyZPNmcQdzmYg" target="_E8zUUMQ-EeyZPNmcQdzmYg"/>
+  <Materials xmi:id="_CQ_CUMTCEeyZPNmcQdzmYg" label="Matcha" source="_-GaO0MQ-EeyZPNmcQdzmYg" target="_euES8MQ-EeyZPNmcQdzmYg"/>
+  <Materials xmi:id="_CndooMTCEeyZPNmcQdzmYg" label="Matcha" source="_euES8MQ-EeyZPNmcQdzmYg" target="_a5fOEMQ-EeyZPNmcQdzmYg"/>
+  <Materials xmi:id="_DCD58MTCEeyZPNmcQdzmYg" label="Matcha" source="_a5fOEMQ-EeyZPNmcQdzmYg" target="_FUATYMQ-EeyZPNmcQdzmYg"/>
+  <Materials xmi:id="_Db6kYMTCEeyZPNmcQdzmYg" label="Mango" source="_-fYvgMQ-EeyZPNmcQdzmYg" target="_fP3YcMQ-EeyZPNmcQdzmYg"/>
+  <Materials xmi:id="_D3NZQMTCEeyZPNmcQdzmYg" label="Mango" source="_fP3YcMQ-EeyZPNmcQdzmYg" target="_aAoTcMQ-EeyZPNmcQdzmYg"/>
+  <Materials xmi:id="_ER3U8MTCEeyZPNmcQdzmYg" label="Mango" source="_aAoTcMQ-EeyZPNmcQdzmYg" target="_FpyWIMQ-EeyZPNmcQdzmYg"/>
+  <Materials xmi:id="_EqwWEMTCEeyZPNmcQdzmYg" label="Coffee" source="_--ftYMQ-EeyZPNmcQdzmYg" target="_fu_kcMQ-EeyZPNmcQdzmYg"/>
+  <Materials xmi:id="_FALMcMTCEeyZPNmcQdzmYg" label="Coffee" source="_fu_kcMQ-EeyZPNmcQdzmYg" target="_ad9vsMQ-EeyZPNmcQdzmYg"/>
+  <Materials xmi:id="_FgKUEMTCEeyZPNmcQdzmYg" label="Coffee" source="_ad9vsMQ-EeyZPNmcQdzmYg" target="_FpyWIMQ-EeyZPNmcQdzmYg"/>
+  <Materials xmi:id="_F9izoMTCEeyZPNmcQdzmYg" label="Chocolate" source="__bM3gMQ-EeyZPNmcQdzmYg" target="_gSItwMQ-EeyZPNmcQdzmYg"/>
+  <Materials xmi:id="_GV63YMTCEeyZPNmcQdzmYg" label="Chocolate" source="_gSItwMQ-EeyZPNmcQdzmYg" target="_ZmnQ8MQ-EeyZPNmcQdzmYg"/>
+  <Materials xmi:id="_GuNbkMTCEeyZPNmcQdzmYg" label="Chocolate" source="_ZmnQ8MQ-EeyZPNmcQdzmYg" target="_GWymEMQ-EeyZPNmcQdzmYg"/>
+  <Transitions xmi:id="_Zj_lUMQ_EeyZPNmcQdzmYg" label="Grab" source="_8urm4MQ-EeyZPNmcQdzmYg" target="_X4dGAMQ-EeyZPNmcQdzmYg"/>
+  <Transitions xmi:id="_VyAhcMQ_EeyZPNmcQdzmYg" label="Serve" source="_X4dGAMQ-EeyZPNmcQdzmYg" target="_DxvPYMQ-EeyZPNmcQdzmYg"/>
+  <Transitions xmi:id="_Q0rr0MQ_EeyZPNmcQdzmYg" label="Order" source="_tN85YMQ9EeyZPNmcQdzmYg" target="_DxvPYMQ-EeyZPNmcQdzmYg"/>
+</CAS703:IceCream_shop>

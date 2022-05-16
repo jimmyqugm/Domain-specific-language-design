@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="ASCII"?>
+<gmfgraph:Canvas xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gmfgraph="http://www.eclipse.org/gmf/2006/GraphicalDefinition" name="CAS703">
+  <figures name="Default">
+    <figures xsi:type="gmfgraph:PolylineDecoration" name="MaterialFigureTargetDecoration"/>
+    <descriptors name="IngredientFigure">
+      <actualFigure xsi:type="gmfgraph:RoundedRectangle" name="IngredientFigure">
+        <border xsi:type="gmfgraph:MarginBorder">
+          <insets top="5" left="5" bottom="5" right="5"/>
+        </border>
+        <children xsi:type="gmfgraph:Label" name="IngredientLabelFigure" text="Ingredient"/>
+      </actualFigure>
+      <accessors accessor="getFigureIngredientLabelFigure" figure="//@figures.0/@descriptors.0/@actualFigure/@children.0"/>
+    </descriptors>
+    <descriptors name="MenuFigure">
+      <actualFigure xsi:type="gmfgraph:RoundedRectangle" name="MenuFigure">
+        <border xsi:type="gmfgraph:MarginBorder">
+          <insets top="5" left="5" bottom="5" right="5"/>
+        </border>
+        <children xsi:type="gmfgraph:Label" name="MenuLabelFigure" text="Menu">
+          <maximumSize dx="10000" dy="50"/>
+        </children>
+        <children xsi:type="gmfgraph:Rectangle" name="MenuIceCreamCompartmentFigure" outline="false"/>
+      </actualFigure>
+      <accessors accessor="getFigureMenuLabelFigure" figure="//@figures.0/@descriptors.1/@actualFigure/@children.0"/>
+      <accessors accessor="getMenuIceCreamCompartmentFigure" figure="//@figures.0/@descriptors.1/@actualFigure/@children.1"/>
+    </descriptors>
+    <descriptors name="FlavorFigure">
+      <actualFigure xsi:type="gmfgraph:RoundedRectangle" name="FlavorFigure">
+        <border xsi:type="gmfgraph:MarginBorder">
+          <insets top="5" left="5" bottom="5" right="5"/>
+        </border>
+        <children xsi:type="gmfgraph:Label" name="FlavorLabelFigure" text="Flavor"/>
+      </actualFigure>
+      <accessors accessor="getFigureFlavorLabelFigure" figure="//@figures.0/@descriptors.2/@actualFigure/@children.0"/>
+    </descriptors>
+    <descriptors name="CustomerFigure">
+      <actualFigure xsi:type="gmfgraph:RoundedRectangle" name="CustomerFigure">
+        <border xsi:type="gmfgraph:MarginBorder">
+          <insets top="5" left="5" bottom="5" right="5"/>
+        </border>
+        <children xsi:type="gmfgraph:Label" name="CustomerLabelFigure" text="Customer">
+          <maximumSize dx="10000" dy="50"/>
+        </children>
+        <children xsi:type="gmfgraph:Rectangle" name="CustomerOrdersCompartmentFigure" outline="false"/>
+      </actualFigure>
+      <accessors accessor="getFigureCustomerLabelFigure" figure="//@figures.0/@descriptors.3/@actualFigure/@children.0"/>
+      <accessors accessor="getCustomerOrdersCompartmentFigure" figure="//@figures.0/@descriptors.3/@actualFigure/@children.1"/>
+    </descriptors>
+    <descriptors name="OrderFigure">
+      <actualFigure xsi:type="gmfgraph:RoundedRectangle" name="OrderFigure">
+        <border xsi:type="gmfgraph:MarginBorder">
+          <insets top="5" left="5" bottom="5" right="5"/>
+        </border>
+        <children xsi:type="gmfgraph:Label" name="OrderLabelFigure" text="Order"/>
+      </actualFigure>
+      <accessors accessor="getFigureOrderLabelFigure" figure="//@figures.0/@descriptors.4/@actualFigure/@children.0"/>
+    </descriptors>
+    <descriptors name="KitchenFigure">
+      <actualFigure xsi:type="gmfgraph:RoundedRectangle" name="KitchenFigure">
+        <border xsi:type="gmfgraph:MarginBorder">
+          <insets top="5" left="5" bottom="5" right="5"/>
+        </border>
+        <children xsi:type="gmfgraph:Label" name="KitchenLabelFigure" text="Kitchen">
+          <maximumSize dx="10000" dy="50"/>
+        </children>
+        <children xsi:type="gmfgraph:Rectangle" name="KitchenRecipesCompartmentFigure" outline="false"/>
+      </actualFigure>
+      <accessors accessor="getFigureKitchenLabelFigure" figure="//@figures.0/@descriptors.5/@actualFigure/@children.0"/>
+      <accessors accessor="getKitchenRecipesCompartmentFigure" figure="//@figures.0/@descriptors.5/@actualFigure/@children.1"/>
+    </descriptors>
+    <descriptors name="RecipeFigure">
+      <actualFigure xsi:type="gmfgraph:RoundedRectangle" name="RecipeFigure">
+        <border xsi:type="gmfgraph:MarginBorder">
+          <insets top="5" left="5" bottom="5" right="5"/>
+        </border>
+        <children xsi:type="gmfgraph:Label" name="RecipeLabelFigure" text="Recipe">
+          <maximumSize dx="10000" dy="50"/>
+        </children>
+        <children xsi:type="gmfgraph:Rectangle" name="RecipeUsesCompartmentFigure" outline="false"/>
+      </actualFigure>
+      <accessors accessor="getFigureRecipeLabelFigure" figure="//@figures.0/@descriptors.6/@actualFigure/@children.0"/>
+      <accessors accessor="getRecipeUsesCompartmentFigure" figure="//@figures.0/@descriptors.6/@actualFigure/@children.1"/>
+    </descriptors>
+    <descriptors name="UseFigure">
+      <actualFigure xsi:type="gmfgraph:RoundedRectangle" name="UseFigure">
+        <border xsi:type="gmfgraph:MarginBorder">
+          <insets top="5" left="5" bottom="5" right="5"/>
+        </border>
+        <children xsi:type="gmfgraph:Label" name="UseLabelFigure" text="Use"/>
+      </actualFigure>
+      <accessors accessor="getFigureUseLabelFigure" figure="//@figures.0/@descriptors.7/@actualFigure/@children.0"/>
+    </descriptors>
+    <descriptors name="StorageFigure">
+      <actualFigure xsi:type="gmfgraph:RoundedRectangle" name="StorageFigure">
+        <border xsi:type="gmfgraph:MarginBorder">
+          <insets top="5" left="5" bottom="5" right="5"/>
+        </border>
+        <children xsi:type="gmfgraph:Label" name="StorageLabelFigure" text="Storage">
+          <maximumSize dx="10000" dy="50"/>
+        </children>
+        <children xsi:type="gmfgraph:Rectangle" name="StorageInventoriesCompartmentFigure" outline="false"/>
+      </actualFigure>
+      <accessors accessor="getFigureStorageLabelFigure" figure="//@figures.0/@descriptors.8/@actualFigure/@children.0"/>
+      <accessors accessor="getStorageInventoriesCompartmentFigure" figure="//@figures.0/@descriptors.8/@actualFigure/@children.1"/>
+    </descriptors>
+    <descriptors name="InventoryFigure">
+      <actualFigure xsi:type="gmfgraph:RoundedRectangle" name="InventoryFigure">
+        <border xsi:type="gmfgraph:MarginBorder">
+          <insets top="5" left="5" bottom="5" right="5"/>
+        </border>
+        <children xsi:type="gmfgraph:Label" name="InventoryLabelFigure" text="Inventory"/>
+      </actualFigure>
+      <accessors accessor="getFigureInventoryLabelFigure" figure="//@figures.0/@descriptors.9/@actualFigure/@children.0"/>
+    </descriptors>
+    <descriptors name="MaterialFigure">
+      <actualFigure xsi:type="gmfgraph:PolylineConnection" name="MaterialFigure" targetDecoration="//@figures.0/@figures.0"/>
+    </descriptors>
+    <descriptors name="MaterialLabelFigure">
+      <actualFigure xsi:type="gmfgraph:Label" name="MaterialLabelLabel" text="Material"/>
+    </descriptors>
+    <descriptors name="TransitionFigure">
+      <actualFigure xsi:type="gmfgraph:PolylineConnection" name="TransitionFigure"/>
+    </descriptors>
+    <descriptors name="TransitionLabelFigure">
+      <actualFigure xsi:type="gmfgraph:Label" name="TransitionLabelLabel" text="Transition"/>
+    </descriptors>
+  </figures>
+  <nodes name="Ingredient" figure="IngredientFigure"/>
+  <nodes name="Menu" figure="MenuFigure"/>
+  <nodes name="Flavor" figure="FlavorFigure"/>
+  <nodes name="Customer" figure="CustomerFigure"/>
+  <nodes name="Order" figure="OrderFigure"/>
+  <nodes name="Kitchen" figure="KitchenFigure"/>
+  <nodes name="Recipe" figure="RecipeFigure"/>
+  <nodes name="Use" figure="UseFigure"/>
+  <nodes name="Storage" figure="StorageFigure"/>
+  <nodes name="Inventory" figure="InventoryFigure"/>
+  <connections name="Material" figure="MaterialFigure"/>
+  <connections name="Transition" figure="TransitionFigure"/>
+  <compartments name="MenuIceCreamCompartment" figure="MenuFigure" collapsible="true" accessor="//@figures.0/@descriptors.1/@accessors.1"/>
+  <compartments name="CustomerOrdersCompartment" figure="CustomerFigure" collapsible="true" accessor="//@figures.0/@descriptors.3/@accessors.1"/>
+  <compartments name="KitchenRecipesCompartment" figure="KitchenFigure" collapsible="true" accessor="//@figures.0/@descriptors.5/@accessors.1"/>
+  <compartments name="RecipeUsesCompartment" figure="RecipeFigure" collapsible="true" accessor="//@figures.0/@descriptors.6/@accessors.1"/>
+  <compartments name="StorageInventoriesCompartment" figure="StorageFigure" collapsible="true" accessor="//@figures.0/@descriptors.8/@accessors.1"/>
+  <labels name="IngredientLabel" figure="IngredientFigure" accessor="//@figures.0/@descriptors.0/@accessors.0"/>
+  <labels name="MenuLabel" figure="MenuFigure" accessor="//@figures.0/@descriptors.1/@accessors.0"/>
+  <labels name="FlavorLabel" figure="FlavorFigure" accessor="//@figures.0/@descriptors.2/@accessors.0"/>
+  <labels name="CustomerLabel" figure="CustomerFigure" accessor="//@figures.0/@descriptors.3/@accessors.0"/>
+  <labels name="OrderLabel" figure="OrderFigure" accessor="//@figures.0/@descriptors.4/@accessors.0"/>
+  <labels name="KitchenLabel" figure="KitchenFigure" accessor="//@figures.0/@descriptors.5/@accessors.0"/>
+  <labels name="RecipeLabel" figure="RecipeFigure" accessor="//@figures.0/@descriptors.6/@accessors.0"/>
+  <labels name="UseLabel" figure="UseFigure" accessor="//@figures.0/@descriptors.7/@accessors.0"/>
+  <labels name="StorageLabel" figure="StorageFigure" accessor="//@figures.0/@descriptors.8/@accessors.0"/>
+  <labels name="InventoryLabel" figure="InventoryFigure" accessor="//@figures.0/@descriptors.9/@accessors.0"/>
+  <labels name="MaterialLabel" figure="MaterialLabelFigure" elementIcon="false"/>
+  <labels name="TransitionLabel" figure="TransitionLabelFigure" elementIcon="false"/>
+</gmfgraph:Canvas>
